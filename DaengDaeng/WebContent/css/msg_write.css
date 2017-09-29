@@ -1,0 +1,77 @@
+@CHARSET "utf-8";
+
+
+#contents_msg_write {padding: 50px 262px; overflow:hidden; height:59%;}
+.msg_write { background-color: rgba( 255, 255, 255, 0.75 ); border-radius: 42px; width: 700px; margin-top: 53px; height:90%; overflow: auto; padding:29px; box-sizing:border-box; }
+
+.msg_write .msg_write_list { padding:25px 0; overflow: hidden;}
+.msg_write .msg_write_title { width:80px;  margin:0 auto; overflow:hidden;}
+.msg_write .msg_write_title h2 { font-size:30px; color:#fb5d5a; float:left; margin:18px 0}
+
+li.msg_write_send { margin-bottom:15px }
+li.msg_write_send label,li.msg_write_texttit label { float:left; margin-right:15px }
+li.msg_write_send input[type="text"]{ width:120px; padding: 3px 6px;}
+li.msg_write_send input[type=button] {padding: 4px 11px;  background-color: #007ece; border: none;  font-size: 14px; color: #fff; cursor: pointer}
+li.msg_write_send input[type=button]:hover { background-color: #00CDEA}
+
+li.msg_write_texttit { margin-bottom:15px  }
+/* li.msg_write_title label { float:left; } */
+li.msg_write_texttit input.m_title { padding:3px 8px; width:200px; box-sizing:border-box;  }
+li.msg_write_texttit input[type="text"]{ width:400px; padding: 3px 6px;}
+li.msg_write_text {  }
+li.msg_write_text label { float:left; margin-right:15px; }
+li.msg_write_text input.m_contents { }
+textarea { width: 500px; height: 145px; overflow: auto; }
+
+.btn_msg_send  {width: 67px; margin: 15px auto; }
+.btn_msg_send  input[type="submit"] {cursor:pointer; border-radius:9px; width:65px;  box-sizing:border-box; background-color: #FFBB00;  border:none; padding:10px 13px;color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.btn_msg_send  input[type="submit"]:hover { background-color:#EE8300; color:#fff; }
+
+.btn_msg_write { border-bottom:1px solid #ababab; overflow:hidden; margin-bottom:10px;}
+button#msg_resc {cursor:pointer;  float:left; border-radius:9px 0 0 0; box-sizing:border-box; background-color: #ABABAB;  border:none; padding: 10px 14px; border-right: 2px solid #fff;  color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+button#msg_resc:hover { background-color:#707070; color:#fff; }
+
+button#msg_send{ cursor:pointer; float:left; box-sizing:border-box; background-color: #ABABAB;  border:none; padding: 10px 14px;  color:#fff;border-right: 2px solid #fff;  font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+button#msg_send:hover {   background-color:#707070; color:#fff; }
+
+button#msg_write { cursor:pointer;border-radius: 0 9px 0 0; box-sizing:border-box; background-color: #707070; border-right: 2px solid #fff;  border:none; padding: 10px 14px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+button#msg_write:hover { background-color:#ABABAB; color:#fff; }
+
+.msg_write .msg_write_title02 { width:130px;  margin:0 auto; overflow:hidden;}
+.msg_write .msg_write_title02 h2 { font-size:30px; color:#fb5d5a; float:left; margin:18px 0}
+
+.msg_write_list ul.msg_contents_listul li{ margin-bottom:15px }
+.msg_write_list ul.msg_contents_listul li label { float:left; margin-right:15px;font-size:14px; color:#008299; font-weight:bold; }
+.msg_write_list ul.msg_contents_listul li h3 { font-size:14px; color:#505050; }
+.msg_write_list ul.msg_contents_listul li.contents_msg_box { padding: 20px; height: 200px; border: 1px solid #d0d0d0; }
+
+
+.btn_msg_contents button{ margin-right:7px }
+button#msg_rep {cursor:pointer;  float:left; border-radius:9px; box-sizing:border-box; background-color: #ABABAB;  border:none; padding: 10px 14px;  color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+button#msg_rep:hover { background-color:#707070; color:#fff; }
+
+button#msg_delete{ cursor:pointer;border-radius:9px; float:left; box-sizing:border-box; background-color: #ABABAB;  border:none; padding: 10px 14px;  color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+button#msg_delete:hover {   background-color:#707070; color:#fff; }
+
+button#msg_list { cursor:pointer;border-radius: 9px; box-sizing:border-box; background-color: #ABABAB;  border:none; padding: 10px 14px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+button#msg_list:hover { background-color:#707070; color:#fff; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

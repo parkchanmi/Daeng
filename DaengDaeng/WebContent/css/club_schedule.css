@@ -1,0 +1,45 @@
+@CHARSET "utf-8";
+
+h1,h2,h3 { margin:0; padding:0; }
+ul,li,ol { list-style:none; margin:0; padding:0; text-decoration:none;}
+#contents_clubboard {padding: 50px 262px; overflow:hidden; height:58%;}
+.clubboard_form{ background-color: rgba( 255, 255, 255, 0.75 ); border-radius: 42px; width: 1007px; margin-top: 53px; height:90%; overflow: auto; }
+.clubboard_form .clubboard_title { width:215px; margin:20px auto; overflow:hidden;}
+.clubboard_form .clubboard_title h2 { font-size:27px; color:#fb5d5a; float:left; margin:10px 18px 0 0;}
+.clubboard_form .clubboard { padding:25px 0; overflow: hidden;}
+
+.clubboard {width: 882px; margin: 0 auto; overflow:hidden }
+.clubboard .clubboard_left { width: 261px; float:left; margin-bottom:15px; }
+.clubboard .clubboard_left > ul {display:block;  width:211px;}
+.clubboard .clubboard_left  .clubboard_photo { width:150px; height: 160px; border:1px solid #505050; margin: 0 0 25px 10px;}
+li.clubboard_name { }
+li.clubboard_name label {  margin-right:10px; float:left;  font-size:16px; }
+li.clubboard_name h3 {font-size:18px; font-weight:normal; }
+
+
+
+li.clubboard_leader { }
+li.clubboard_leader label {  margin-right:10px; float:left;  font-size:16px; }
+li.clubboard_leader h3 {font-size:18px; }
+textarea { width:427px; height:155px }
+.clubboard .clubboard_left .btn_club_board { margin: 20px 0 0 41px; }
+.clubboard .clubboard_left .btn_club_board button { cursor:pointer;  float:left; border-radius:9px; box-sizing:border-box; background-color: #707070;  border:none; padding: 10px 14px; border-right: 2px solid #fff;  color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.clubboard .clubboard_left .btn_club_board button:hover { background-color:#ABABAB; color:#fff; }
+.clubboard .clubboard_right { }
+.clubboard .clubboard_right .btn_club_board_menu {overflow:hidden; margin-bottom:20px;  }
+.btn_club_board_menu button { margin-right:10px; }
+.btn_club_board_menu button#totallist { cursor:pointer;  float:left; border-radius:9px; box-sizing:border-box; background-color: #707070;  border:none; padding: 10px 14px;  color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.btn_club_board_menu button#totallist:hover { background-color:#ABABAB; color:#fff; }
+.btn_club_board_menu button#photo { cursor:pointer; float:left; border-radius:9px;box-sizing:border-box; background-color: #707070;  border:none; padding:10px 13px; margin-bottom:8px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.btn_club_board_menu button#photo:hover { background-color:#ABABAB; color:#fff;  }
+.btn_club_board_menu button#schedule {cursor:pointer; border-radius:9px;float:left; box-sizing:border-box; background-color: #ABABAB;  border:none; padding: 10px 14px;  color:#fff;  font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center; }
+.btn_club_board_menu button#schedule:hover { background-color:#707070; color:#fff; }
+.btn_club_board_menu button#member { cursor:pointer;box-sizing:border-box;border-radius:9px; background-color: #ABABAB;  border:none; padding: 10px 14px;  color:#fff;border-right: 2px solid #fff;  font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.btn_club_board_menu button##memberhover { background-color:#707070; color:#fff; }
+
+.clubboard_file { }
+.margin_btm{ margin:15px 0;  }
+h3.board_none { font-size:14px;}
+/* 
+.clubboard_file li input[type="file"] { padding:3px 6px; background-color:#007ece; border:none;}
+.clubboard_file li input[type="file"]:hover { background-color: #00CDEA; } */

@@ -1,0 +1,118 @@
+@CHARSET "utf-8";
+
+#contents_mypage { width:100%; overflow:hidden; margin-bottom:99px; position:relative; height:47%}
+a { margin:0;]}
+h1,h2,h3 { margin:0; padding:0}
+.mypageform {padding:50px; margin-left:260px; width:41%; background-color: #fff; height:80%; overflow:auto;}
+.mypageform .mypage_title { width:235px; margin:0 auto; overflow:hidden;}
+.mypageform .mypage_title h2 { font-size:30px; color:#fb5d5a; float:left; margin:10px 18px 0 0;}
+
+.mypageform .owner_form {padding:25px 20px; overflow: hidden;}
+.mypageform .owner_form ul { overflow:hidden; margin:0 25%;}
+.mypageform .owner_form ul li { display:block; color:#505050; font-size:13px; overflow:hidden; margin:0 0 19px 0;  }
+.mypageform .owner_form ul li select { padding:2px; width: 138px;]}
+.mypageform .owner_form ul.mp_modify_pwForm { display:block; color:#505050; font-size:13px; }
+.mypageform .owner_form ul.mp_modify_pwForm li { margin-bottom: 15px; width: auto;}
+.mypageform .owner_form ul.mp_modify_pwForm li label { float:left; font-weight:bold; text-align:center; width:142px; line-height:34px;}
+.mypageform .owner_form input { padding:5px 8px; width: 180px; }
+.mypageform .owner_form input.gender_ipt { padding:5px 8px; width:70px}
+.mypageform .owner_form input.age_ipt { padding:5px 8px; width:70px}
+.mypageform .owner_form ul li label{ float:left; font-weight:bold; width:40%; margin-right:10px;  display:inline-block; }
+.mypageform .owner_form ul li h3{ font-weight:normal; display:inline; font-size:13px; color:#404040}
+
+.mypageform .member_choice {padding:25px 20px; overflow: hidden;}
+.mypageform .member_choice ul { overflow:hidden; margin:0 7%;}
+.mypageform .member_choice ul li { display:block; color:#505050; font-size:13px; overflow:hidden; margin:0 0 19px 0;  }
+.mypageform .member_choice ul li.gender > input {width:100px; }
+.mypageform .member_choice ul li select { padding:2px; width: 138px;]}
+.mypageform .member_choice ul.mp_modify_pwForm { display:block; color:#505050; font-size:13px; }
+.mypageform .member_choice ul.mp_modify_pwForm li { margin-bottom: 15px; width: auto;}
+.mypageform .member_choice ul.mp_modify_pwForm li label { float:left; font-weight:bold; text-align:center; width:142px; line-height:34px;}
+.mypageform .member_choice input { padding:5px 8px; width: 180px; }
+.mypageform .member_choice input.email_box { width:200px; padding:5px 8px; }
+.mypageform .member_choice input.gender_ipt { padding:5px 8px; width:70px}
+.mypageform .member_choice .btn_area03 { float:right; }
+.mypageform .member_choice .btn_area03 input.btn_confirm {  cursor:pointer;  border:none; margin-right:171px; border-radius:8px; width:90px; display:block; height:33px;  box-sizing:border-box;background-color: #ABABAB; color:#fff; font-size: 14px; font-weight:bold; text-align:center; letter-spacing:-0.5px;  }
+.mypageform .member_choice .btn_area03 input.btn_confirm:hover {background-color:#707070; color:#fff;   }
+.mypageform .member_choice .btn_area03 input.btn_confirm01 { cursor:pointer; margin-right:98px;border:none; border-radius:8px; width:90px; display:block; height:33px;  box-sizing:border-box;background-color: #ABABAB; color:#fff; font-size: 14px; font-weight:bold; text-align:center; letter-spacing:-0.5px;  }
+.mypageform .member_choice .btn_area03 input.btn_confirm01:hover {background-color:#707070; color:#fff;   }
+
+.mypageform .member_choice input.age_ipt { padding:5px 8px; width:70px}
+.mypageform .member_choice ul li label{ float:left; font-weight:bold; width:40%; margin-right:10px;  display:inline-block; }
+.mypageform .member_choice ul li h3{ font-weight:normal; display:inline; font-size:13px; color:#404040}
+.mypageform .member_choice input[type="radio"] { width:10px; margin:10px 12px 0 0}
+.mypageform .member_choice span { font-size:14px; margin-right:10px;}
+.mypageform .member_choice input[type="text_num"] { width:100px; padding:2px 8px; }
+.mypageform .member_choice ul li select#hp_1 { padding:2px; width: 100px;}
+.mypageform .member_choice .btn_area_join { width: 160px;  margin:0 auto; }
+.mypageform .member_choice .btn_area_join input[type="submit"] {cursor:pointer; margin-right:15px;float:left; border-radius:9px; width:65px;  box-sizing:border-box; background-color: #FFBB00;  border:none; padding:10px 13px; margin-bottom:8px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.mypageform .member_choice .btn_area_join input[type="submit"]:hover { background-color:#EE8300; color:#fff; }
+.mypageform .member_choice .btn_area_join input[type="reset"] { cursor:pointer;border-radius:9px; width:75px;  box-sizing:border-box; background-color: #ABABAB;  border:none; padding:10px 13px; margin-bottom:8px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.mypageform .member_choice .btn_area_join input[type="reset"]:hover { background-color:#707070; color:#fff; }
+/* .mypageform .member_choice .btn_area_join input[type="file"] { cursor:pointer;border-radius:9px; width:75px;  box-sizing:border-box; background-color: #007ece;  border:none; padding:10px 13px; margin-bottom:8px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.mypageform .member_choice .btn_area_join input[type="file"]:hover { background-color:#00CDEA; color:#fff; }
+ */
+.mypageform .owner_form .btn_area_login { width:220px;  margin:0 auto; }
+.mypageform .owner_form .btn_area_login input[type="submit"] { cursor:pointer; float:left; border-radius : 9px; cursor:pointer; text-align:center;background-color: #007ece;  border:none; width:100px; padding:14px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; margin-right:15px;}
+.mypageform .owner_form .btn_area_login input[type="submit"]:hover { background-color:#00CDEA; color:#fff; }
+.mypageform .owner_form .btn_area_login input[type="reset"] { cursor:pointer; border-radius:9px; width:100px;  box-sizing:border-box; background-color: #ABABAB;  border:none; padding:14px;  color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.mypageform .owner_form .btn_area_login input[type="reset"]:hover { background-color:#707070; color:#fff; }
+
+
+.mypageform .owner_form .btn_area_loginbox { width:400px;  margin:0 auto; }
+.mypageform .owner_form .btn_area_loginbox input[type="submit"] { cursor:pointer; float:left; border-radius : 9px; cursor:pointer; text-align:center;background-color: #007ece;  border:none; width:100px; padding:14px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; margin-right:15px;}
+.mypageform .owner_form .btn_area_loginbox input[type="submit"]:hover { background-color:#00CDEA; color:#fff; }
+.mypageform .owner_form .btn_area_loginbox input[type="reset"] { float:left; cursor:pointer;  float:left;border-radius:9px; width:100px;  box-sizing:border-box; background-color: #ABABAB;  border:none; padding:14px;  color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; margin-right:15px; display:block;  text-align:center;}
+.mypageform .owner_form .btn_area_loginbox input[type="reset"]:hover { background-color:#707070; color:#fff; }
+
+.mypageform .owner_form .btn_area_loginbox input[type="button"] { cursor:pointer; border-radius:9px; width:153px;  box-sizing:border-box; background-color: #ABABAB;  border:none; padding:14px;  color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.mypageform .owner_form .btn_area_loginbox input[type="button"]:hover { background-color:#707070; color:#fff; }
+
+.mypageform .owner_form input.btn_area04 { margin:0 45%; float:left;  border-radius : 8px; cursor:pointer;text-align:center;background-color: #007ece;  border:none; width:100px; padding:14px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; }
+.mypageform .owner_form .btn_area { padding: 0 48%;}
+.mypageform .owner_form .btn_area .btn_modify {}
+.mypageform .owner_form .btn_area .btn_modify a:hover { background-color:#00CDEA; color:#fff;  }
+.mypageform .owner_form .btn_area .btn_modify a { border-radius:8px; width:100px; display:block; text-align:center; box-sizing:border-box;background-color: #007ece; padding:15px; color:#fff; font-size: 14px; font-weight:bold; text-align:center; letter-spacing:-0.5px; }
+.mypageform .owner_form input.btn_area02 { float:left;  border-radius : 8px; cursor:pointer;text-align:center;background-color: #007ece;  border:none; width:100px; padding:14px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; margin:0 42%;}
+.mypageform .owner_form input.btn_area02:hover { background-color:#00CDEA; color:#fff;}
+.btn_area { float:right; width:78px; margin-top:15px; }
+.btn_area .btn_dogs_modify { }
+.btn_area .btn_dogs_modify a {  border-radius:9px; width:55px;  box-sizing:border-box; background-color: #FFBB00;  border:none; padding:5px; margin-bottom:8px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.btn_area .btn_dogs_modify a:hover {  background-color:#EE8300; color:#fff;  }
+.btn_area .btn_dogs_delete {  }
+.btn_area .btn_dogs_delete a {  border-radius:9px;  width:55px;display:block;  box-sizing:border-box;  background-color: #ABABAB;  border:none;  padding:5px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center; }
+.btn_area .btn_dogs_delete a:hover {background-color:#707070; color:#fff; }
+
+.mypageform dl { float:left; padding:20px;  height: 180px; box-sizing:border-box; border:2px solid #000; width:168px; cursor:pointer;}
+.mypageform dl:hover { background-color: #6fa8dc; border:2px solid #1968d6; }
+
+.mypageform dl:first-child {border-right:none; }
+.mypageform dl:last-child { border-left:none;}
+.mypageform dl>dt { width: 40px; margin:20px auto; }
+.mypageform dl>dd.mem_choice h3{ display:inline-block; text-align:center; font-size:16px; font-weight: bold; color:#000;  }
+.mypageform dl>dd.mem_choice input { border:none; }
+form.mem_choiceform { width:505px; margin:44px auto;}
+
+.dogs_form { overflow:hidden; margin-top:30px; padding-bottom:25px; border-bottom:1px solid #ddd; }
+.dogs_form:last-child { border:none;}
+.dogs_photo { float:left; width:190px; }
+.dogs_info { overflow:hidden; float:left; }
+.dog_area .btn_add { margin:20px auto; width:50px;}
+h2.pet_info { color:#fb5d5a; font-size:28px; text-align:center;} 
+.dogs_info ul { }
+.dogs_info ul li {  float:left; color:#505050; font-size:13px; width:40%; margin: 0 17px 15px 0;}
+.dogs_info ul li label { float:left; font-weight:bold; width:40%; display:inline-block;  }
+.dogs_info ul li h3{ font-weight:normal; display:inline }
+
+.filebox label {  display: inline-block; margin:15px 27px 0 27px; padding: 5px 7px; color: #fff; font-size: 14px; line-height: normal;  vertical-align: middle; background-color: #515151; cursor: pointer; border-radius: .25em; max-width:100%;}
+.filebox input[type="file"] {  /* 파일 필드 숨기기 */  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); border: 0;}
+#cma_image { width: 140px; border: 1px solid #000; height:150px}
+
+
+
+
+
+
+
+
+

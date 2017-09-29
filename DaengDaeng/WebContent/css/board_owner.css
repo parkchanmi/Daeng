@@ -1,0 +1,17 @@
+@CHARSET "utf-8";
+.board_list { background-color: rgba( 255, 255, 255, 0.75 ); border-radius: 42px; width: 1000px; margin-top: 83px; height:83%; overflow: auto; }
+.write_btn a {float: right; display: inline-block;  font-size: 15px; background-color: #5CD1E5;  color: #fff; letter-spacing: -0.5px; padding: 8px 10px;  margin: 14px;  border-radius: 8px; font-weight:bold;}
+.write_btn a:hover { background-color:#4375DB}
+.paging { width:auto; text-align:center; margin-top:17px; }
+.page_num { display:inline-block;}
+.page_num a{  padding:3px 9px; background-color:#fff; border:1px solid #ddd;  }
+.page_num a:hover {  padding:3px 9px;background-color:#B0B0B0; color:#fff; cursor:pointer;}
+
+tr { text-align : center; }
+tr:nth-child(even) {background-color:#EAEAEA;  cursor: pointer; color:#505050;}
+tr:hover { background-color:#B0B0B0; color:#fff;  cursor: pointer; }
+td{ border-right: 2px solid #fff;} 
+td:last-child { border-right:none;}
+th {border-right:2px solid #fff;}
+
+td.page_text a { color:#505050 !important; }

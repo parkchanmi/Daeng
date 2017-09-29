@@ -1,0 +1,35 @@
+@CHARSET "utf-8";
+
+h1,h2,h3 { margin:0; padding:0; }
+ul,li,ol { list-style:none; margin:0; padding:0; text-decoration:none;}
+#contents_clublist_make {padding: 50px 262px; overflow:hidden; height:71%;}
+.clublist_form{ background-color: rgba( 255, 255, 255, 0.75 ); border-radius: 42px; width: 1007px; margin-top: 53px; height:90%; overflow: auto; }
+.clublist_form .clublist_title { width:215px; margin:20px auto; overflow:hidden;}
+.clublist_form .clublist_title h2 { font-size:27px; color:#fb5d5a; float:left; margin:10px 18px 0 0;}
+.clublist_form .make_club { padding:25px 0; overflow: hidden;}
+
+.make_club form.make_club_form {width:892px; margin:0 auto;}
+.make_club  { width: 803px; margin: 0 auto; }
+.make_club  ul { overflow:hidden; margin-bottom:13px; }
+
+
+li.make_club_select {  }
+li.make_club_select  label { margin-right:10px; float:left; font-size:16px;}
+li.make_club_select  h3 { display:inline-block; font-size:16px; }
+li.make_club_select  select { width: 160px; padding:3px 9px; height:33px; margin-right:10px; }
+
+
+li.make_club_name  { margin-bottom:15px;}
+li.make_club_name  label { margin-right:10px; float:left;  font-size:16px;}
+li.make_club_name  h3 { font-size:18px;}
+
+li.make_club_file   { width:350px; float:left; }
+li.make_club_file  label { font-size:16px; margin-right:19px; float:left; }
+
+.club_write_box  .club_write_contents { width: 803px; }
+
+.btn_write_club  { width: 152px;  margin:0 auto; }
+.btn_write_club  input[type="submit"] {cursor:pointer; margin-right:10px; float:left; border-radius:9px; width:65px;  box-sizing:border-box; background-color: #FFBB00;  border:none; padding:10px 13px; margin-bottom:8px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.btn_write_club  input[type="submit"]:hover { background-color:#EE8300; color:#fff; }
+.btn_write_club  input[type="button"] { cursor:pointer;  margin-right:10px; float:left; border-radius:9px;box-sizing:border-box; background-color: #ABABAB;  border:none; padding:10px 13px; margin-bottom:8px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.btn_write_club  input[type="button"]:hover {   background-color:#707070; color:#fff; }

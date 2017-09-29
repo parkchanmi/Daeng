@@ -1,0 +1,33 @@
+@CHARSET "utf-8";
+h1,h2,h3 { margin:0 !important; padding:0 !important;}
+#contents_write { padding: 50px 262px; overflow:hidden; height:72%; }
+.board_write { background-color: rgba( 255, 255, 255, 0.50 ); border-radius: 42px; width: 1000px; margin-top: 83px; height:83%; overflow: auto; }
+.write_title { margin: 30px auto; width: 94px;}
+.write_title h2{font-size: 25px; color: #fb5d5a; letter-spacing: -0.5px;  border-radius: 8px; font-weight:bold;}
+form.writeform_board {width:892px; margin:0 auto;}
+.write_area { width: 803px; margin: 0 auto; }
+.write_area ul { overflow:hidden; margin-bottom:31px; }
+li.write_info { width:400px; float:left; margin-right:135px; }
+li.write_info label { font-size:16px;}
+li.write_writer { width: 150px; float:left;}
+li.write_writer label { margin-right:10px; float:left; font-size:16px;}
+li.write_writer h3 { display:inline-block; font-size:16px; }
+
+li.write_num { width: 150px; float:left; }
+li.write_num label { margin-right:10px; float:left;  font-size:16px;}
+li.write_num h3 { display:inline-block; font-size:18px;}
+
+li.write_info label { }
+li.write_info select { width: 150px; padding:3px 9px; height:33px; margin-right:10px;}
+li.write_info h3 { font-size:18px; color:#505050; font-weight:bold; }
+
+.write_area .write_box { width: 803px; }
+
+.btn_write { width: 250px;  margin:0 auto; }
+.btn_write input[type="submit"] {cursor:pointer; margin-right:10px; float:left; border-radius:9px; width:65px;  box-sizing:border-box; background-color: #FFBB00;  border:none; padding:10px 13px; margin-bottom:8px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.btn_write input[type="submit"]:hover { background-color:#EE8300; color:#fff; }
+.btn_write input[type="reset"] { cursor:pointer;  margin-right:10px; float:left; border-radius:9px;box-sizing:border-box; background-color: #ABABAB;  border:none; padding:10px 13px; margin-bottom:8px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.btn_write input[type="reset"]:hover {   background-color:#707070; color:#fff; }
+.btn_write input[type="button"] { cursor:pointer;border-radius:9px; box-sizing:border-box; background-color: #ABABAB;  border:none; padding:10px 13px; margin-bottom:8px; color:#fff; font-size: 14px; font-weight:bold; letter-spacing:-0.5px; display:block;  text-align:center;}
+.btn_write input[type="button"]:hover { background-color:#707070; color:#fff; }
+
